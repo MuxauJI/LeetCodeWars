@@ -21,6 +21,6 @@ fun decode(s:String):Int {
 /* fun decode(str: String) = str.map { arrayOf(1,5,10,50,100,500,1000)["IVXLCDM".indexOf(it)] }
     .plus(0).zipWithNext().map { (current, next) -> if (current < next) -current else current }.sum() */
 fun main() {
-    //decode("MCMXC").also(::println)
-    println("MCMXC".map { arrayOf(1,5,10,50,100,500,1000)["IVXLCDM".indexOf(it)] }.plus(0).zipWithNext().map { (a,b) -> if(a<b) -a else a }.sum())
+    decode("MCMXC").also(::println)
+    //println("MCMXC".map { arrayOf(1,5,10,50,100,500,1000)["IVXLCDM".indexOf(it)] }.plus(0).zipWithNext().map { (a,b) -> if(a<b) -a else a }.sum())
 }
