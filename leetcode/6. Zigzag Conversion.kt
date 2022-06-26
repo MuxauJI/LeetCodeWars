@@ -1,15 +1,11 @@
-package Leetcode
+package leetcode
 
 fun convertzigzag(s: String, numRows: Int): String {
-    if (s == null || s.isEmpty() || numRows <= 0) {
-        return "";
-    }
-    if (numRows == 1) {
-        return s;
-    }
+    if (s.isEmpty() || numRows <= 0) return ""
+    if (numRows == 1) return s
     val step = 2 * numRows - 2
     val l = s.length
-    var ans: String = ""
+    var ans = ""
     for(i in 0 until numRows) {
         var j=i
         while(j<l) {
@@ -24,6 +20,6 @@ fun convertzigzag(s: String, numRows: Int): String {
 }
 
 fun main() {
-    convertzigzag("ABC", 1).also(::println) // PINALSIGYAHRPI
+    convertzigzag("PINALSIGYAHRPI", 3).also(::println) // PINALSIGYAHRPI
 }
 

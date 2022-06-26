@@ -1,4 +1,4 @@
-package Sololearn
+package sololearn
 
 fun shippingCost(amount: Double, international: Boolean): Double {
     val compare:(Double,Double)-> Double = {

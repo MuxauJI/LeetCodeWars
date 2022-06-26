@@ -1,4 +1,4 @@
-package Leetcode
+package leetcode
 
 fun runningSum(nums: IntArray): IntArray {
     val res = mutableListOf<Int>()

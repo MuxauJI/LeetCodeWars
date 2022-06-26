@@ -1,4 +1,4 @@
-/*
+package yandex.smd2022winter/*
 fun luckyTicket(i: Int): Int {
     fun toListInt(s: String): MutableList<Int> = s.map{it.digitToInt()}.toMutableList()
     fun sumOfInt(a: List<Int>) = a.sum()
@@ -16,7 +16,7 @@ fun luckyTicket(i: Int): Int {
 }
 */
 /*
-fun main() {
+fun Leetcode.Yandex.yandex.yandex.smd2022winter.smd2022winter.smd2022winter.yandex.smd2022winter.smd2022winter.smd2022winter.leetcode.main() {
     var t = readLine()!!.toString().filter { it.isDigit() }
     //var t = "165901".filter { it.isDigit() } // 101002
     if(t.length < 6) return
@@ -52,7 +52,7 @@ fun main() {
     //println(twoIntToStr(fListInt, sListInt))
 }*/
 /*
-fun main() {
+fun Leetcode.Yandex.yandex.yandex.smd2022winter.smd2022winter.smd2022winter.yandex.smd2022winter.smd2022winter.smd2022winter.leetcode.main() {
     luckyTicket(165901).also(::println)
 }*/
 

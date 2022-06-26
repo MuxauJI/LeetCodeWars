@@ -1,4 +1,4 @@
-package Codewars
+package codewars
 
 fun main() {
     val f:(Int,Int) -> Int = { x,y-> if(x>y) y else x}

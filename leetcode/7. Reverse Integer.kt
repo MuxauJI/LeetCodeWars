@@ -1,4 +1,4 @@
-package Leetcode
+package leetcode
 
 fun reverseInt(x: Int): Int {
     var subzero = false
@@ -10,7 +10,7 @@ fun reverseInt(x: Int): Int {
         y /= 10
     }
     if (ans > Integer.MAX_VALUE) {
-        return 0;
+        return 0
     }
     return (if(subzero) -ans else ans).toInt()
 }

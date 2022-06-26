@@ -1,3 +1,5 @@
+package yandex.smd2022winter
+
 import java.time.Duration
 import java.time.LocalTime
 
@@ -14,8 +16,8 @@ fun main() {
     println(duration.toString())
     println(diffMinutes.toString())
     println(allTime.toString())
-    var h = allTime / 60
-    var m = allTime % 60
-    var a = "%d:%02d".format(h,m)
+    val h = allTime / 60
+    val m = allTime % 60
+    val a = "%d:%02d".format(h,m)
     println(a)
 }

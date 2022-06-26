@@ -1,4 +1,4 @@
-package Leetcode
+package leetcode
 
 fun pivotIndex(nums: IntArray): Int {
     var sum_num = 0

@@ -1,4 +1,4 @@
-package Leetcode
+package leetcode
 
 fun isPalindrom(s: String): Boolean {
     return s == s.reversed()
@@ -7,10 +7,10 @@ fun isPalindrom(s: String): Boolean {
 // Expand Around Center
 fun longestPalindrome(s: String): String {
     val l = s.length
-    var left = 0
-    var right = 0
+    var left: Int
+    var right: Int
     var begin = 0
-    var curLen = 0
+    var curLen: Int
     var maxLen = 1
     for(i in 0 until l) {
         left = i-1
