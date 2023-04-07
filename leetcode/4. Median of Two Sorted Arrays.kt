@@ -8,5 +8,5 @@ fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {
 }
 
 fun main() {
-    findMedianSortedArrays(intArrayOf(), intArrayOf(2,3)).also(::println)
+    findMedianSortedArrays(intArrayOf(), intArrayOf(2,3,-2,5,7,12)).also(::println)
 }

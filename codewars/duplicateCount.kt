@@ -1,5 +1,5 @@
 fun duplicateCount(str: String): Int {
-    return str.toLowerCase().toList().groupingBy { it }.eachCount().filter { it.value > 1}.count()
+    return str.lowercase().toList().groupingBy { it }.eachCount().filter { it.value > 1}.count()
 }
 
 // same

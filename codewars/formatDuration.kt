@@ -53,5 +53,5 @@ fun formatDuration(seconds : Int): String {
 
 
 fun main() {
-    formatDuration(1).also(::println)
+    formatDuration(1234).also(::println)
 }

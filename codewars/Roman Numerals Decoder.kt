@@ -9,9 +9,9 @@ fun decode(s:String):Int {
             'D' to 500,
             'M' to 1000
     )
-    val s = s.replace("CM", "DCCCC").replace("IV","IIII").replace("XC", "LXXXX")
+    val t = s.replace("CM", "DCCCC").replace("IV","IIII").replace("XC", "LXXXX")
             .replace("IX", "VIIII").replace("XL", "XXXX").replace("CD", "CCCC")
-    for (c in s) {
+    for (c in t) {
         d += romanDigits[c]!!
     }
     return d
