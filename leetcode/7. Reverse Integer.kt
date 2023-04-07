@@ -16,5 +16,5 @@ fun reverseInt(x: Int): Int {
 }
 
 fun main() {
-    reverseInt(1534236469).also(::println)
+    reverseInt(153469).also(::println)
 }
